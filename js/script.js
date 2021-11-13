@@ -1,6 +1,6 @@
 //task 1
-function getFactorial(n){
-  return n === 1 ? n : n * getFactorial(n-1);
+function getFactorial(num){
+  return num === 1 ? num : num * getFactorial(num-1);
 }
 console.log(getFactorial(3));
 
